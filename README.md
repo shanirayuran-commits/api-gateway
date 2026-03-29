@@ -29,7 +29,7 @@ Includes a modern minimalist dark-themed desktop interface for real-time traffic
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project demonstrates a **high-throughput API Gateway** architecture capable of handling concurrent traffic safely using
 asynchronous programming patterns.
@@ -44,7 +44,7 @@ The gateway is designed to protect upstream services (GitHub API in this demo) f
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - **High-Concurrency Engine**  
   Powered by `FastAPI` and `Uvicorn` for non-blocking async request processing.
@@ -72,9 +72,9 @@ The gateway is designed to protect upstream services (GitHub API in this demo) f
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-### 🔥 Languages & Frameworks
+### Languages & Frameworks
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,fastapi" />
 </p>
@@ -91,7 +91,7 @@ The gateway is designed to protect upstream services (GitHub API in this demo) f
 
 ---
 
-## 🧠 Architecture Summary
+## Architecture Summary
 
 The system is designed around a typical API Gateway flow:
 
@@ -106,7 +106,7 @@ This creates a secure buffer layer between clients and upstream APIs.
 
 ---
 
-## 🛡 Security Rules Implemented
+## Security Rules Implemented
 
 | Security Feature | Purpose |
 |-----------------|---------|
@@ -118,7 +118,7 @@ This creates a secure buffer layer between clients and upstream APIs.
 
 ---
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 
 ### 1️⃣ Clone the repository
 ```bash
@@ -140,27 +140,27 @@ python desktop_app.py
 
 ---
 
-## 🧪 Testing
+## Testing
 
-### ✅ Authorized Request (PowerShell)
+### Authorized Request (PowerShell)
 
 ```powershell
 Invoke-RestMethod -Uri "http://127.0.0.1:8000/repos/python/cpython" -Headers @{"X-API-Key"="secret-token-123"}
 ```
 
-### ❌ Unauthorized Request
+### Unauthorized Request
 
 ```powershell
 Invoke-RestMethod -Uri "http://127.0.0.1:8000/repos/python/cpython"
 ```
 
-### 🚫 Rate Limit Stress Test (Example)
+### Rate Limit Stress Test (Example)
 
 Run multiple requests quickly to trigger token bucket rejection.
 
 ---
 
-## 🎓 Academic Concepts Implemented
+## Academic Concepts Implemented
 
 * **Asynchronous Programming**: Leveraging Python `asyncio` for scalable network operations.
 * **Traffic Shaping**: Token Bucket algorithm ensures fair request distribution under load.
@@ -170,7 +170,7 @@ Run multiple requests quickly to trigger token bucket rejection.
 
 ---
 
-## 📌 Use Cases
+## Use Cases
 
 This project can be used as:
 
@@ -181,7 +181,7 @@ This project can be used as:
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <details>
   <summary><b>Click to View Screenshots</b></summary>
@@ -218,7 +218,7 @@ This project can be used as:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**.
 

@@ -79,7 +79,7 @@ The gateway is designed to protect upstream services (GitHub API in this demo) f
   <img src="https://skillicons.dev/icons?i=python,fastapi" />
 </p>
 
-### ⚙ Libraries & Tools Used
+### Libraries & Tools Used
 - **Python 3.11+**
 - **FastAPI** — Async API framework
 - **Uvicorn** — High-performance ASGI server
